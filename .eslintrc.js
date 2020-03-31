@@ -16,7 +16,8 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" } // `style: true` for less
     ],
     "rules": {
     }
